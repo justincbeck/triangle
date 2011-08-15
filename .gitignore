@@ -1,0 +1,6 @@
+Gemfile.lock
+.idea/
+.bundle
+tmp/
+data/*output.txt
+coverage/
