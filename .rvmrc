@@ -1,6 +1,6 @@
-if [[ -d "$rvm_path/environments" && -s "$rvm_path/environments/ruby-1.9.2-p136@triangle" ]] ; then
-  \. "$rvm_path/environments/ruby-1.9.2-p136@triangle"
+if [[ -d "$rvm_path/environments" && -s "$rvm_path/environments/ruby-1.9.2-p290@triangle" ]] ; then
+  \. "$rvm_path/environments/ruby-1.9.2-p290@triangle"
 else
-  rvm --create use  "ruby-1.9.2-p136@triangle"
+  rvm --create use  "ruby-1.9.2-p290@triangle"
 fi
 
